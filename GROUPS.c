@@ -4,15 +4,14 @@
 
 int main() 
 {
-	int a;
-	scanf("%d",&a);
-	for(int i=0;i<a;i++)
+	int t;
+	scanf("%d",&t);
+	for(int i=0;i<t;i++)
 	{
 			char input[100000];
 			scanf("%s",input); 
-			long int groups=0;
+			long int groups=0,count=0;
 			int flag=0;
-			long int count=0;
 			count=strlen(input);
 			for(long int i=0;i<count;i++)
 			{
@@ -27,8 +26,5 @@ int main()
 					}
 			}
             printf("%ld\n",groups); 
-			
-			
 	}
-	
 }
