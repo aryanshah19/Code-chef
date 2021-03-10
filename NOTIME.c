@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[]) {
+int main() 
+{
 	int N,H,x;
 	scanf("%d%d%d",&N,&H,&x);
 	int time[N];
@@ -22,7 +23,4 @@ int main(int argc, char *argv[]) {
 		}
 	if(flag==0)
 		printf("NO\n");
-	
-	
-	
 }
