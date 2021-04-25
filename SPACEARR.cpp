@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 using namespace std;
 #define ll long long
 
@@ -28,11 +29,13 @@ int main()
             else
             {
                 counter += i+1-arr[i];
+                printf("%d",counter);
             }
         }
         if(flag==0)
         {
-            if(counter&1){
+            if(counter&1)
+                {
                 cout << "First\n";
             }
             else
