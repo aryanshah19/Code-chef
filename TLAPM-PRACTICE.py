@@ -10,6 +10,4 @@ def value(x,y):
 def value(x,y):
 	return int(((x*(x+1))/2)+(x*(y-1))+(((y-2)*((y-2)+1))/2))
 
-print(value(10, 20))
-print(value_2(10, 20))
-
+print(value(2, 3))
