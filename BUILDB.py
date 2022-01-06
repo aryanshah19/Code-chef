@@ -7,4 +7,5 @@ for j in range(int(input())):
     ct = ct - r*(a[i]-a[i-1])
     ct = max(ct,0)+b[i]
     mt = max(mt,ct)
+
   print(mt)
